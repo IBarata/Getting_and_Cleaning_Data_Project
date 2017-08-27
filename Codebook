@@ -1,7 +1,7 @@
 
 #Data for the project:
 
-###Data Set Information:
+##Data Set Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six 
 activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on 
@@ -15,7 +15,7 @@ components, was separated using a Butterworth low-pass filter into body accelera
 to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features 
 was obtained by calculating variables from the time and frequency domain.
 
-###Attribute Information:
+##Attribute Information:
 
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -24,7 +24,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-###Source:
+##Source:
 
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory
@@ -33,7 +33,7 @@ DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws
 
-##Variables:
+#Variables:
 - x_train, y_train, x_test and y_test: data provided by the downloaded files that were merged in one data set, "all_data",
 for further analysis.
 
@@ -110,7 +110,7 @@ fBodyBodyGyroMag-std()
 fBodyBodyGyroJerkMag-mean()			
 fBodyBodyGyroJerkMag-std()
 
-##R Scrip - transformations/work performed to clean up the data:
+#R Scrip - transformations/work performed to clean up the data:
 
 Set working directory:
 Check if file exists:
