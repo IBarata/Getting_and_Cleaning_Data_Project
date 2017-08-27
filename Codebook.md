@@ -33,6 +33,7 @@ DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws
+____
 
 #Variables:
 - x_train, y_train, x_test and y_test - data provided by the downloaded files that were merged in one data set, "all_data",
@@ -111,7 +112,7 @@ for further analysis.
   -	fBodyBodyGyroMag-std()
   -	fBodyBodyGyroJerkMag-mean()
   -	fBodyBodyGyroJerkMag-std()
-  
+____  
 
 #R Scrip - transformations/work performed to clean up the data:
 
@@ -120,7 +121,6 @@ for further analysis.
 - Download file:
 - Record download date
 - Unzip dataset
-____
 
 1.Merging the training and the test sets to create one data set:
 - Preparing data to merge:
