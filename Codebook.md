@@ -35,14 +35,16 @@ Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08
 activityrecognition '@' smartlab.ws
 
 #Variables:
-- x_train, y_train, x_test and y_test: data provided by the downloaded files that were merged in one data set, "all_data",
+- x_train, y_train, x_test and y_test - data provided by the downloaded files that were merged in one data set, "all_data",
 for further analysis.
 
-- subject_train and subject_test: Subject id numbers
+- subject_train and subject_test - Subject id numbers
 
-- activity labels: name of the activity assigned to each class (1-WALKING, 2-WALKING_UPSTAIRS, 3-WALKING_DOWNSTAIRS, 4-SITTING, 5-STANDING, 6-LAYING)
+- activity labels - name of the activity assigned to each class:
+.1-WALKING, 
+.2-WALKING_UPSTAIRS, 3-WALKING_DOWNSTAIRS, 4-SITTING, 5-STANDING, 6-LAYING)
 
-- features: correct names for the dataset applied to the column names 
+- features - correct names for the dataset applied to the column names 
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
